@@ -24,7 +24,7 @@ pipeline {
     } 
     
      
- stage ('Check-Git-Secrets') {
+ stage ('CxRun') {
       steps {
         sh './cx scan create --project-name eclipselocal -s https://github.com/securitis/CICD.git --sast-preset-name "High and Medium" --branch "master" --proxy http://iproxy.appl.chrysler.com:9090'
         
