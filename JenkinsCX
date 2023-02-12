@@ -1,0 +1,39 @@
+pipeline {
+  agent any 
+     
+        
+  tools {
+    maven 'maven'
+  }
+        
+  environment {
+    Snyk = 'Snyk'
+    Trivy = 'Trivy'
+    Audit = 'Audit'
+  }
+  
+  stages {
+    stage ('Initialize') {
+      steps {
+        sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                  
+            ''' 
+      }
+    } 
+    
+     
+ stage ('Check-Git-Secrets') {
+      steps {
+        sh './cx scan create --project-name eclipselocal -s https://github.com/securitis/CICD.git --sast-preset-name "High and Medium" --branch "master" --proxy http://iproxy.appl.chrysler.com:9090'
+        
+      }
+    }  
+         
+    
+  }
+} 
+
+
+
