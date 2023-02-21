@@ -26,7 +26,7 @@ pipeline {
      
  stage ('CxRun') {
       steps {
-       sh './cx scan create --project-name CxRunDemo -s https://github.com/securitis/CICD.git --sast-preset-name "High and Medium" --branch "master" '
+       checkmarxASTScanner additionalOptions: '', baseAuthUrl: '', branchName: 'master', checkmarxInstallation: 'checkmarxone', credentialsId: '', projectName: 'DemoCX', serverUrl: '', tenantName: ''
       }
     }  
          
