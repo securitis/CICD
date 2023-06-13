@@ -5,4 +5,6 @@ public class Config {
     public static final String TEMPLATE_PREFIX = "eb/v1/";
     public static final String AUTH_USER = "user1";
     public static final String AUTH_PASS = "pass2";
+        public static final String AUTH_PASS = "pass2";
+        public static final String AUTH_PASS = "pass2";
 }
