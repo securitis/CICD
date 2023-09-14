@@ -1,0 +1,140 @@
+---
+env:
+  contexts:
+    - name: "Default Context"
+      urls:
+        - "https://aemstagems4-connectivity.fiat.com/gb/en/"
+      includePaths:
+        - "https://aemstagems4-connectivity.fiat.com/gb/en/manage-subscriptions/my-alert-lite/terms-and-conditions/latest.partial"
+        - "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-be.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-alert-lite/767x560_Hero.jpg.transform/cws-767/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/avatar/style-1.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-it.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-car/FIAT-MyUconnect-DetailPage-MY-CAR-Landscape-1439x760.jpg.transform/cws-1439/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/terms-and-conditions/1-0-1.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/cws/fiat/fiat-gb/en/dashboard"
+        -  "https://aemstagems4-connectivity.fiat.com/content/cws/fiat/fiat-gb/en/vehicle-services"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/my-profile/my-account/subscription-messages.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/jeep/dashboard/app-banner/uconnect-services-black.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-navigation/FIAT-MyUconnect-DetailPage-MY-NAVIGATION-Desktop-1920x570.jpg.transform/cws-1920/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-pt.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/cws/fiat/fiat-gb/en/vehicle-services/vehicle-finder"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/terms-and-conditions-basic/1-0-1.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/favicon/favicon_FIAT.ico"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/marketplace/kiri/Kiri_Icon_White_60x40.png"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/privacy/marketing-3rd.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-remote/FIAT-MyUconnect-DetailPage-MY-REMOTE-Mobile-767x560.jpg.transform/cws-767/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/pin-updated.html"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/dashboard/app-banner/APP_500e_120x120.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-br.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-hu.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-bg.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-is.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/avatar/style-2.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-assistant/FIAT-MyUconnect-DetailPage-MY-ASSISTANT-Desktop-1920x570.jpg.transform/cws-1920/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-at.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-echarge/FIAT-MyUconnect-DetailPage-MY-E-CHARGE-Landscape-1439x760.jpg.transform/cws-1439/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/marketplace/ubigi/Tablet_portrait_Smartphone.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/cws/fiat/fiat-gb/en/my-profile"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-car/FIAT-MyUconnect-DetailPage-MY-CAR-Portrait-1023x1024.jpg.transform/cws-1023/img.jpg"
+        -  "https://aemstagems4-myuconnect.fiatprofessional.com/"
+        -  "https://aemstagems4-connectivity.fiat.com/content/cws/fiat/fiat-gb/en/support"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-je.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/404.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-echarge/FIAT-MyUconnect-DetailPage-MY-E-CHARGE-Desktop-1920x570.jpg.transform/cws-1920/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-remote/FIAT-MyUconnect-DetailPage-MY-REMOTE-Desktop-1920x570.jpg.transform/cws-1920/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-navigation/FIAT-MyUconnect-DetailPage-MY-NAVIGATION-Portrait-1023x1024.jpg.transform/cws-1023/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/personal-data-3rd-parties.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/privacy/personal-data.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-hr.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/manage-subscriptions/my-alert-lite/terms-and-conditions/1-0-0.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/support/contact-us.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/dashboard/app-banner/uconnect-services-black.png"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/application-terms-of-use/1-0-0.partial"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/marketplace/kiri/Card_tablet_mobile_300x218_KIRI.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-se.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-dk.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/fiat/subscriptions/my-navigation/FIAT-MyUconnect-DetailPage-MY-NAVIGATION-Landscape-1439x760.jpg.transform/cws-1439/img.jpg"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/brands/wagoneer.png"
+        -  "https://aemstagems4-connectivity.fiat.com/content/dam/cws/cross/flags/square/icons-flags-mx.svg"
+        -  "https://aemstagems4-connectivity.fiat.com/gb/en/manage-subscriptions/my-alert-lite/terms-of-sales/latest.partial"
+
+      excludePaths: []
+      authentication:
+        method: "form"
+        parameters:
+          loginPageUrl: "https://aemstagems4-connectivity.fiat.com/gb/en/login"
+          loginRequestUrl: "https://aemstagems4-connectivity.fiat.com/gb/en/login"
+          loginRequestBody: "username={%username%}&password={%password%}"
+        verification:
+          method: "response"
+          loggedInRegex: "Logout"
+          loggedOutRegex: "Login"
+          pollFrequency: 60
+          pollUnits: "requests"
+          pollUrl: ""
+          pollPostData: ""
+      sessionManagement:
+        method: "cookie"
+        parameters: {}
+      technology:
+        exclude: []
+      users:
+        - name: "test_user"
+          credentials:
+            password: "askfjaskdjfnskdjf"
+            username: "junknjunk"
+  parameters:
+    failOnError: true
+    failOnWarning: false
+    progressToStdout: true
+  vars: {}
+jobs:
+  - parameters:
+      scanOnlyInScope: true
+      enableTags: false
+    rules: []
+    name: "passiveScan-config"
+    type: "passiveScan-config"
+  - parameters:
+      context: "Default Context"
+      user: "test_user"
+      url: ""
+      maxDuration: 0
+      maxDepth: 0
+      maxChildren: 0
+    name: "spider"
+    type: "spider"
+  - parameters:
+      context: "Default Context"
+      user: "test_user"
+      url: ""
+      maxDuration: 60
+      maxCrawlDepth: 10
+      numberOfBrowsers: 1
+      runOnlyIfModern: false
+    name: "spiderAjax"
+    type: "spiderAjax"
+  - parameters: {}
+    name: "passiveScan-wait"
+    type: "passiveScan-wait"
+  - parameters:
+      context: "Default Context"
+      user: "test_user"
+      policy: ""
+      maxRuleDurationInMins: 0
+      maxScanDurationInMins: 0
+    policyDefinition:
+      defaultStrength: "medium"
+      defaultThreshold: "medium"
+      rules: []
+    name: "activeScan"
+    type: "activeScan"
+  - parameters:
+      template: "risk-confidence-html"
+      reportDir: ""
+      reportTitle: "ZAP Scanning Report"
+      reportDescription: ""
+    name: "report"
+    type: "report"
