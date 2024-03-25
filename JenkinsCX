@@ -26,9 +26,7 @@ pipeline {
      
  stage ('CxRun') {
       steps {
-          qualysWASScan authRecord: 'other', authRecordId: '2102991', cancelOptions: 'none', credsId: 'QualysAPI', optionProfile: 'other', optionProfileId: '213949', platform: 'US_PLATFORM_1', pollingInterval: '5', proxyCredentialsId: '', proxyPort: 9090, proxyServer: 'iproxy.appl.chrysler.com', scanName: 'DemoDastfromQualys', scanType: 'VULNERABILITY', useProxy: true, vulnsTimeout: '60*24', webAppId: '1172349011'
-        //qualysWASScan authRecord: 'useDefault', cancelOptions: 'none', credsId: 'QualysAPI', optionProfile: 'useDefault', platform: 'US_PLATFORM_1', pollingInterval: '5', proxyCredentialsId: '', proxyPort: 9090, proxyServer: 'iproxy.appl.chrysler.com', scanName: 'DemoDast_Jenkins_Integration', scanType: 'VULNERABILITY', useProxy: true, vulnsTimeout: '60*24', webAppId: ''
-       //checkmarxASTScanner additionalOptions: '', baseAuthUrl: '', branchName: 'master', checkmarxInstallation: 'checkmarxone', credentialsId: '', projectName: 'DemoCX', serverUrl: '', tenantName: ''
+        checkmarxASTScanner additionalOptions: '', baseAuthUrl: '', branchName: 'master', checkmarxInstallation: 'checkmarxone', credentialsId: '', projectName: 'DemoCX', serverUrl: '', tenantName: ''
       }
     }  
          
