@@ -23,7 +23,12 @@ pipeline {
       }
     } 
     
-     
+  stage ('SonarQube') {
+      steps {
+        echo "SonarQube"
+      }
+    }  
+
  stage ('CxRun') {
       steps {
         checkmarxASTScanner additionalOptions: '', baseAuthUrl: '', branchName: 'master', checkmarxInstallation: 'checkmarxone', credentialsId: '', projectName: 'QualityGateDemo', serverUrl: '', tenantName: ''
