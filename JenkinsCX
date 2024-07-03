@@ -31,7 +31,7 @@ pipeline {
 
  stage ('CxRun') {
       steps {
-        checkmarxASTScanner additionalOptions: '', baseAuthUrl: '', branchName: 'master', checkmarxInstallation: 'checkmarxone', credentialsId: '', projectName: 'QualityGateDemo', serverUrl: '', tenantName: ''
+        checkmarxASTScanner additionalOptions: '', baseAuthUrl: '', branchName: 'master', checkmarxInstallation: 'checkmarxone', credentialsId: '', projectName: 'QualityGateDemo2', serverUrl: '', tenantName: ''
       }
     }  
          
